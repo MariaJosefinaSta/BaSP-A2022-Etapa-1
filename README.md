@@ -1,6 +1,6 @@
 # Week 01
 
---En este proyecto desarrollamos un prospecto en figma con el flow de pantallas correspondiente a exito y error, en mi caso fue el area de admin.
+--In this project we developed a prospectus in figma with the flow of screens corresponding to success and error, in my case it was the admin area.
 
 # Week 02
 
