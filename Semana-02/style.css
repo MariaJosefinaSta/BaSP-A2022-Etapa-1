@@ -1,12 +1,33 @@
-.container{
+body {
+    position: relative;
+    width: 2000px;
+    height: 3070px;
+    background-color: #ffffff;
+}
+
+.container {
     border-bottom: 1px solid;
 }
 
 #header-one {
-    border-bottom: 1px solid  #FF3E1D;
+    border-bottom: 1px solid #ff3e1d;
 }
 
 #button {
-    color: #FF3E1D;
-    border-color: #FF3E1D;
+    color: #ff3e1d;
+    border-radius: 4px;
+    border-color: #ff3e1d;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
