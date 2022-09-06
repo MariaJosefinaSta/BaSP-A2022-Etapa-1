@@ -11,10 +11,11 @@
 
 <body>
     <header>
-        <div class="container" id="trackgenix">
+        <div id="header">
+            <div id="top-header">
             <a href="https://www.facebook.com/" class="icon-header"><img
                     src="C:\Users\Josefina\BaSP-A2022-Etapa-1\Semana-01\Img\Facebook-icon.png" alt="Facebook icon"
-                    width="50" height="50"></a>
+                    width="50" height="50" class="icon-header"></a>
             <a href="https://www.instagram.com/"><img
                     src="C:\Users\Josefina\BaSP-A2022-Etapa-1\Semana-01\Img\Instagram-icon.png" alt="Instagram icon"
                     width="50" height="50" class="icon-header"></a>
@@ -28,8 +29,9 @@
                     src="C:\Users\Josefina\BaSP-A2022-Etapa-1\Semana-01\Img\Linkedin-icon.png" alt="Linkedin icon"
                     width="50" height="50" class="icon-header"></a>
             <h1 id="header-one">Trackgenix by GigaTech Software Solutions SA</h1>
-            <h1 id="header-two">Hi, I’m Trackgenix by GigaTech Software Solutions SA</h1>
-            <h1 id="header-three">A practical and easy to use system</h1>
+            </div>
+            <h2 id="header-two">Hi, I’m Trackgenix by GigaTech Software Solutions SA</h2>
+            <h2 id="header-three">A practical and easy to use system</h2>
             <p>
                 Trackgenix is a web system which facilitates the registration of hours worked by each employee in
                 each project and work team.
@@ -39,9 +41,10 @@
         </div>
     </header>
     <main>
+        <div id="wysum">
         <div class="container">
             <h2>Why you should using me</h2>
-            <div class="cajas">
+            <div class="PB">
                 <img src="Img/Productivity-boobster.png" alt="Produtcivity boobster" width="70" height="70"
                     id="productivity-boobster">
                 <h3>Productivity boobster</h3>
@@ -50,7 +53,7 @@
                     this with a random text for the moment. This is just an example.
                 </p>
             </div>
-            <div class="cajas">
+            <div class="LS">
                 <img src="Img/Leadership.png" alt="Leadership and team magnament" width="70" height="70"
                     id="leadership">
                 <h3>Leadership and team magnament</h3>
@@ -59,7 +62,7 @@
                     this with a random text for the moment. This is just an example.
                 </p>
             </div>
-            <div class="cajas">
+            <div class="WT">
                 <img src="IMG/Work-traceability.png" alt="Work traceability" width="70" height="70"
                     id="work-traceability">
                 <h3>Work traceability</h3>
@@ -68,7 +71,7 @@
                     this with a random text for the moment. This is just an example.
                 </p>
             </div>
-            <div class="cajas">
+            <div class="DM">
                 <img src="IMG/Decision-making.png" alt="Decision making" width="70" height="70" id="decision-making">
                 <h3>Decision making</h3>
                 <p>
@@ -77,10 +80,11 @@
                 </p>
             </div>
         </div>
+    </div>
         <div class="container" id="features">
             <h2>Features</h2>
-            <div class="cajas">
-                <img src="Img/Hours-log.png" alt="Hours log">
+            <div class="HL">
+                <img src="Img/Hours-log.png" alt="Hours log" id="HLimg">
                 <h3>Hours Log</h3>
                 <p>
                     Explanation here of the correspondent reason. We left
@@ -88,8 +92,8 @@
                 </p>
                 <input type="submit" value="More" id="button">
             </div>
-            <div class="cajas">
-                <img src="img/Reports.png" alt="Reports">
+            <div class="R">
+                <img src="img/Reports.png" alt="Reports" id="Reports-img">
                 <h3>Reports</h3>
                 <p>
                     Explanation here of the correspondent reason. We left
@@ -97,8 +101,8 @@
                 </p>
                 <input type="submit" value="More" id="button">
             </div>
-            <div class="cajas">
-                <img src="img/Resource-magnament.png" alt="Resourse magnament">
+            <div class="RM">
+                <img src="img/Resource-magnament.png" alt="Resourse magnament" id="Resourse-Magnament-img">
                 <h3>Resource magnament</h3>
                 <p>
                     Explanation here of the correspondent reason. We left
@@ -106,8 +110,8 @@
                 </p>
                 <input type="submit" value="More" id="button">
             </div>
-            <div class="cajas">
-                <img src="img/Multiple-roles.png" alt="Multiple roles">
+            <div class="MR">
+                <img src="img/Multiple-roles.png" alt="Multiple roles" id="Multiple-roles-img">
                 <h3>Multiple roles</h3>
                 <p>
                     Explanation here of the correspondent reason. We left
@@ -116,26 +120,31 @@
                 <input type="submit" value="More" id="button">
             </div>
         </div>
-        <div class="container" id="gsi">
+        <div id="GSI">
             <h2>Get some info</h2>
-            <label>Full name</label>
-            <input type="text" placeholder="Full name">
-            <label>Email</label>
-            <input type="text" placeholder="Email">
+            
+            <label id="Label-full-name">Full name</label>
+            <input type="text" placeholder="Full name" id="Full-name">
+            <label id="Label-email">Email</label>
+            <input type="text" placeholder="Email" id="Email">
 
+            
             <p>Contact area</p>
 
-            <input type="radio"><label>Human Resources</label>
-            <input type="radio"><label>System</label>
-            <input type="radio"><label>Marketing</label>
+            <input type="radio" id="input-HR"><label id="label-HR">Human Resources</label>
+            <input type="radio" id="input-system"><label id="label-system">System</label>
+            <input type="radio" id="input-marketing"><label id="label-marketing">Marketing</label>
 
-            <label>Message</label>
-            <textarea name="Message"></textarea>
+        
 
-            <input type="submit" value="Reset">
-            <input type="submit" value="Send">
+            <label id="label-message">Message</label>
+            <textarea name="Message" id="message"></textarea>
+
+            <input type="submit" value="Reset" id="inpit-reset">
+            <input type="submit" value="Send" id="input-send">
+
         </div>
-        <div class="container" id="hotb">
+        <div class="container">
             <h2>History of the bussines</h2>
             <h3>The foundation</h3>
             <p>
@@ -150,22 +159,22 @@
             </p>
             <img src="img/Soemthing-else-1.png" alt="Something else paragraph">
         </div>
-        <div class="second-ol">
-            <ol>
+        <div class="OL">
+            <ol id="ol-one">
                 <p>Our products</p>
                 <li>Features</li>
                 <li>Downloads</li>
                 <li>Integrations</li>
                 <li>Ads on</li>
             </ol>
-            <ol>
+            <ol id="ol-two">
                 <p>Bussines</p>
                 <li>About us</li>
                 <li>Client</li>
                 <li>Resources</li>
                 <li>Blog</li>
             </ol>
-            <ol>
+            <ol id="ol-three">
                 <p>Suport</p>
                 <li>Help</li>
                 <li>Tutorials</li>
@@ -177,11 +186,11 @@
     <aside>
         <div class="menu">
             <h3>Menu</h3>
-            <ul class="first-ul">
-                <li>Home</li>
-                <li>SingUp</li>
-                <li>LogIn</li>
-            </ul>
+            <div class="sidebar">
+                <a href="#" class="sidebar-home">Home</a>
+                <a href="#" class="sidebar-singup">Sing up</a>
+                <a href="#" class="sidebar-login">Log in</a>
+              </div>
 
             <h5>Get in touch</h5>
             <p class="pmenu">
@@ -190,11 +199,11 @@
                 This is just an example.
             </p>
 
-            <ul class="second-ul">
-                <li>infotrackgenix@something.idk</li>
-                <li>1234 Somewhere Road #8254 Nashville, TN 00000-0000</li>
-                <li>(000) 000-0000</li>
-            </ul>
+            <div class="sidebartwo">
+                <a href="#" class="hotmail-trackgenix">infotrackgenix@something.idk</a>
+                <a href="#" class="direction-trackgenix">1234 Somewhere Road #8254 Nashville, TN 00000-0000</a>
+                <a href="#" class="tel-trackgenix">(000) 000-0000</a>
+            </div>
         </div>
     </aside>
     <footer>
