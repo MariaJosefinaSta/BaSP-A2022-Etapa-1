@@ -1,3 +1,38 @@
+#FB-Icon {
+    width: 29px;
+    height: 29px;
+    left: 937px;
+    top: 31px;
+}
+
+#IG-Icon {
+    width: 29px;
+    height: 29px;
+    left: 972px;
+    top: 30px;
+}
+
+#TW-Icon {
+    width: 29px;
+    height: 29px;
+    left: 1008px;
+    top: 30px;
+}
+
+#GH-Icon {
+    width: 29px;
+    height: 29px;
+    left: 1048px;
+    top: 30px;
+}
+
+#LI-Icon {
+    width: 29px;
+    height: 29px;
+    left: 1083px;
+    top: 31px;
+}
+
 header > p {
     width: 642px;
     height: 35px;
@@ -29,6 +64,42 @@ header > img {
     height: 301px;
     left: 749px;
     top: 105px;
+}
+
+header > h1 {
+    width: 219px;
+    height: 16px;
+    left: 74px;
+    top: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #373867;
+    display: inline;
+    border-bottom: #FF3E1D;
+}
+
+header > h2 {
+    width: 636px;
+    height: 94px;
+    left: 6px;
+    top: 39px;
+    font-size: 40px;
+    line-height: 47px;
+    text-decoration: none;
+    color: #373867;
+}
+
+header > h3 {
+    width: 309px;
+    height: 23px;
+    left: 6px;
+    top: 173px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #373867;
+    text-decoration: none;
 }
 
 header {
