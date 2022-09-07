@@ -33,6 +33,19 @@
     top: 31px;
 }
 
+.icon-header {
+    position: absolute;
+    width: 175px;
+    height: 30px;
+    left: 937px;
+    top: 30px;
+}
+
+.container {
+    border-bottom: 1px solid;
+}
+
+
 header > p {
     width: 642px;
     height: 35px;
@@ -56,6 +69,7 @@ header > input {
     text-align: center;
     border: 1px solid #FF3E1D;
     border-radius: 5px;
+    color: #FF3E1D;
 }
 
 header > img {
@@ -98,8 +112,12 @@ header > h3 {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    color: #373867;
     text-decoration: none;
+    color: #373867;
+}
+
+main {
+
 }
 
 header {
