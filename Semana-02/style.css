@@ -33,6 +33,39 @@
     top: 31px;
 }
 
+#PB {
+    width: 487px;
+    height: 107px;
+    left: 6px;
+    top: 76px;
+    display: inline-block;
+}
+
+#LS {
+    width: 487px;
+    height: 107px;
+    left: 6px;
+    top: 76px;
+    display: inline-block;
+}
+
+#DM {
+    width: 487px;
+    height: 107px;
+    left: 563px;
+    top: 217px;
+    display: inline-block;
+}
+
+.WT {
+    width: 487px;
+    height: 107px;
+    left: 563px;
+    top: 76px;
+    display: inline-block;
+
+}
+
 .icon-header {
     position: absolute;
     width: 175px;
@@ -45,7 +78,6 @@
     border-bottom: 1px solid;
 }
 
-
 header > p {
     width: 642px;
     height: 35px;
@@ -55,6 +87,37 @@ header > p {
     font-size: 14px;
     line-height: 16px;
     color: #373867;
+}
+
+#PB > img {
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    left: 6px;
+    top: 76px;
+}
+
+#LS > img {
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    left: 6px;
+    top: 217px;
+}
+
+#WT > img {
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    left: 563px;
+    top: 76px;
+}
+
+#DM > img {
+    width: 70px;
+    height: 70px;
+    left: 563px;
+    top: 217px;
 }
 
 header > input {
@@ -114,10 +177,6 @@ header > h3 {
     line-height: 23px;
     text-decoration: none;
     color: #373867;
-}
-
-main {
-
 }
 
 header {
