@@ -7,22 +7,20 @@
     border-bottom: 1px solid #ff3e1d;
 }
 
+#button {
+    color: #ff3e1d;
+    border-radius: 4px;
+    border-color: #ff3e1d;
+    text-align: center;
+}
+
 #features {
     width: 2000px;
     height: 660px;
     top: 857px;
     justify-content: space-between;
     display: inline-block;
-    overflow: auto;
-    
-
-}
-
-#button {
-    color: #ff3e1d;
-    border-radius: 4px;
-    border-color: #ff3e1d;
-    text-align: center;
+    overflow: scroll;
 }
 
 #header-one {
@@ -94,6 +92,7 @@
     height: 366px;
     left: 0px;
     top: 491px;
+
 }
 
 #GSI {
