@@ -66,12 +66,54 @@
 
 }
 
+/*features*/
+
+#HL {
+    width: 474.89px;
+    height: 542px;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+}
+
+#R {
+    width: 475.18px;
+    height: 542px;
+    left: 515.7px;
+    top: 0px;
+    display: inline-block;
+}
+
+#RM {
+    width: 475.3px;
+    height: 542px;
+    left: 1031px;
+    top: 0px;
+    display: inline-block;
+}
+
+#MR {
+    width: 475.05px;
+    height: 542px;
+    left: 1546.95px;
+    top: 0px;
+    display: inline-block;
+}
+
 /*Positions*/
 .wysum {
     width: 1125px;
     height: 366px;
     left: 0px;
     top: 491px;
+}
+
+.features {
+    width: 2000px;
+    height: 660px;
+    left: 0px;
+    top: 857px;
+    overflow: scroll;
 }
 
 .container {
@@ -86,6 +128,7 @@
     top: 30px;
 }
 
+/*wysum img*/
 #PB > img {
     box-sizing: border-box;
     width: 70px;
@@ -117,7 +160,39 @@
     top: 217px;
 }
 
+/*features img*/
 
+#HL > img {
+    width: 474.89px;
+    height: 384px;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+}
+
+#R > img {
+    width: 474.89px;
+    height: 399.33px;
+    left: 515.7px;
+    top: 0px;
+    display: inline-block;
+}
+
+#RM > img {
+    width: 474.89px;
+    height: 395.68px;
+    left: 1031.41px;
+    top: 0px;
+    display: inline-block;
+}
+
+#MR > img {
+    width: 474,89px;
+    height: 384px;
+    left: 1547.12px;
+    top: 0px;
+    display: inline-block;
+}
 
 header > input {
     flex-direction: column;
