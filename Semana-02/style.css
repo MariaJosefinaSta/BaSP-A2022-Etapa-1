@@ -25,7 +25,6 @@
     text-align: center;
 }
 
-
 #header-one {
     width: 219px;
     height: 16px;
@@ -241,13 +240,7 @@
     color: #373867;
 }
 
-.OL {
-    width: 1125px;
-    height: 162px;
-    left: 0px;
-    top: 2795px;
-    display: inline-block;
-}
+
 
 #ol-one {
     width: 226px;
@@ -275,6 +268,18 @@
     display: inline-block;
     color: #373867;
 }
+
+
+
+
+.OL {
+    width: 1125px;
+    height: 162px;
+    left: 0px;
+    top: 2795px;
+    display: inline-block;
+}
+
 
 .pmenu {
     position: fixed;
@@ -427,6 +432,8 @@
     display: inline-block;
 }
 
+/*form*/
+
 
 
 /*FEATURES*/
@@ -481,6 +488,14 @@
     text-decoration: underline #FF3E1D;
 }
 
+
+
+.input-reset:focus {
+
+    background-color: green;
+ }
+
+
 .footer > p {
     width: 437px;
     height: 16px;
@@ -532,6 +547,20 @@
     color: #373867;
 }
 
+#GSI > .input-reset {
+        color: #FF3E1D;
+        border-radius: 4px;
+        border-color: #ff3e1d;
+    }
+
+/*
+#GSI > .input-send {
+    color: #AACE9B;
+    background-color: #AACE9B;
+    border: 4px;
+}
+*/
+
 #header > p {
     width: 642px;
     height: 35px;
@@ -575,6 +604,10 @@
     font-size: 14px;
     line-height: 16px;
     color: #373867;
+}
+
+#button:focus {
+    background-color: #FF3E1D;
 }
 
 p {
@@ -635,16 +668,18 @@ body {
      height: 3070px;
      background-color: #ffffff;*/
          position: absolute;
-         min-height: 70%;
+         width: 1440;
+         height: 900;
          left: 387px;
          top: 0px;
          overflow: scroll;
          background-color: #ffffff;
      }
 
-     html{
-        min-height: 70%;
-     }
+html {
+    width: 1440;
+    height: 900;
+}
  
  /*header {
      position: relative;
@@ -653,6 +688,7 @@ body {
      background-color: #ffffff;
      top: 75px;
  }*/
+
 
 
 
